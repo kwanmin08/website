@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+	.inner{
+ 			border:0px solid gray;
+
+ 		}
+
+ 		.header-main{border:1px solid gray;
+		height:90px;
+		text-align: center;
+	}
+		.header-main>*{
+			display: inline-block;
+		}
+
+		.header-main>a{
+			margin-right: 20%;
+			margin-left: 20%;
+			position:absolute;
+			top:55px;
+			left:25%;
+		}
+		.header-main>input{
+			margin-top: 30px;
+			margin-right: 700px;
+		}
+
+		.header-main>div{
+			position: absolute;
+			top:75px;
+			right:7%;
+		}
+
+		.right-top-menu{
+			border:0px solid gray;
+			width:30%;
+		}
+
+
+		.right-top-menu>*{
+			float:left;
+			font-size: 11px;
+			margin-left: 5%;
+		}

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+	.bestofbest-container{
+			border: 1px solid gray;
+			background-color: #f1f0ef;
+			width:99.8%;
+			height: 550px;
+			text-align: center;
+			position:relative;
+		}
+
+		.bestofbest-title{
+			font-size: 30px;
+			margin-top: 2%;
+
+
+		}
+
+		.bestofbest-subtitle{
+			font-size: 12px;
+			margin-top: 0.5%;
+
+		}
+		
+		
+
+		.content-wrapper{
+			border:0px solid gray;
+			width:60vw;
+			height:350px;
+			display: inline-block;
+			margin-top: 1%;
+			
+		}
+
+		.bob-active-group{border:1px solid gray;
+			border:0px solid gray;
+			width:60vw;
+			height:350px;
+			display: inline-block;
+			margin-top: 1%;}
+
+		.bob-group>*{
+			display:none;
+		}	
+
+
+		.bob-active-group>*{
+			border:1px solid gray;
+			width:30%;
+			height:100%;
+			float: left;
+			margin-left:20px;
+			display: block;
+			
+
+		}
+
+		.bob-content1{
+
+			background: url('../images/c1.png') top center no-repeat;
+			
+		}
+		
+		.bob-content2{
+
+			background: url('../images/c2.png') top center no-repeat;
+			
+		}
+		.bob-content3{
+
+			background: url('../images/c3.png') top center no-repeat;
+			
+		}
+		.bob-content4{
+
+			background: url('../images/c4.png') top center no-repeat;
+			
+		}
+		.bob-content5{
+
+			background: url('../images/c5.png') top center no-repeat;
+			
+		}
+		.bob-content6{
+
+			background: url('../images/c6.png') top center no-repeat;
+			
+		}
+		.bob-content7{
+
+			background: url('../images/c7.png') top center no-repeat;
+			
+		}
+		.bob-content8{
+
+			background: url('../images/c8.png') top center no-repeat;
+			
+		}
+		.bob-content9{
+
+			background: url('../images/c9.png') top center no-repeat;
+			
+		}
+		.bob-content10{
+
+			background: url('../images/c9.png') top center no-repeat;
+			
+		}
+		.bob-content11{
+
+			background: url('../images/c10.png') top center no-repeat;
+			
+		}
+		.bob-content12{
+
+			background: url('../images/c11.png') top center no-repeat;
+			
+		}
+
+		.bob-group>*{
+			background-size: cover;
+		}
+
+
+		.bestofbest-seemore{
+			border: 1px solid gray;
+			width:7vw;
+			height:30px;
+			margin-top: 1%;
+			margin-left:45%;
+		}
+
+		.bestofbest-seemore:hover{background-color: #3c3d3c;}
+		.bestofbest-seemore:hover .bestofbest-seemore-title{color:white;}
+		
+
+		.bob-btn{
+         
+         color:#959595;
+         font-size: 28px;
+         border-radius: 50%;
+         line-height: 80%;
+         font-weight: normal;
+         padding:0 5px 8px;
+         cursor:pointer;
+
+
+        }
+
+
+
+        .bob-btn-left{
+        	position: absolute;
+        	left:14%;
+        	top:45%;
+        	border: 1px solid gray
+        }
+
+        .bob-btn-right{
+        	position: absolute;
+        	right:15%;
+        	top:45%;
+        	border: 1px solid gray
+        }

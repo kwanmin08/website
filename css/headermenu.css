@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+	.header-menu{
+				text-align: center;
+
+			}
+
+	 		.menu-all,.best-goods,.new-goods,.today-sale,.eco-shopping,.bulk-shopping{
+	 			border:1px solid gray;
+	 			display:inline-block;
+	 			height:41px;
+	 			padding-top: 5px;
+	 			box-sizing: border-box;
+	 			position:relative;
+	 			width:150px;
+
+
+	 		}
+			.menu-all:hover,.best-goods:hover,.new-goods:hover,.today-sale:hover,.eco-shopping:hover,.bulk-shopping:hover{color:#92c947;
+
+			}
+			.menu-all:hover .menu-all-sub{
+				color:black;
+				display: block;
+				
+			}
+			.menu-all-sub{
+				border:1px solid gray;
+				height:300px;
+				width:800px;
+				position:absolute;
+				top:40px;
+				left:0px;
+				display:none;
+				background-color: #e4e4e4;
+				z-index: 200;
+			}
+
+			.menu-all-sub>*{
+				float:left;
+
+			}
+
+			.menu-all:hover .menu-all-title{
+				color:92c947;
+			
+			}
+
+
+			
+			.best-goods:hover .best-goods-sub,.new-goods:hover .new-goods-sub,.today-sale:hover .today-sale-sub,.eco-shopping:hover .eco-shopping-sub,.bulk-shopping:hover .bulk-shopping-sub{display:block;
+
+			}
+			.best-goods-sub,.new-goods-sub,.today-sale-sub,.eco-shopping-sub,.bulk-shopping-sub{
+				position:absolute;
+				top:40px;
+				left:0;
+				border:1px solid gray;
+				height:30px;
+				width:148px;
+				display:none;
+				font-size:12px;
+				background-color: #e4e4e4;
+				z-index: 200;
+
+
+			}
+
+			.best-goods:hover .best-goods-title{
+				color:#92c947;
+			}
+
+			.new-goods:hover .new-goods-title{
+				color:#92c947;
+			}
+
+			.today-sale:hover .today-sale-title{
+				color:#92c947;
+			}
+
+			.eco-shopping:hover .eco-shopping-title{
+				color:#92c947;
+			}
+
+			.bulk-shopping:hover .bulk-shopping-title{
+				color:#92c947;
+			}
+			
+			.everyday-filling-nuts{
+				border:1px solid gray;
+				width:20%;
+				height:80%;
+			}
+			.everyday-filling-nuts>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.everyday-filling-nuts-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.nuts{
+				border:1px solid gray;
+				width:15%;
+				height:80%;
+			}
+			.nuts>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.nuts-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.dry-fruits{
+				border:1px solid gray;
+				width:15%;
+				height:80%;
+			}
+			.dry-fruits>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.dry-fruits-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.mix-nuts{
+				border:1px solid gray;
+				width:10%;
+				height:80%;
+			}
+			.mix-nuts>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.mix-nuts-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.snacks{
+				border:1px solid gray;
+				width:10%;
+				height:80%;
+			}
+			.snacks>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.snacks-title{
+				margin-top:11%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.powders{
+				border:1px solid gray;
+				width:11%;
+				height:80%;
+			}
+			.powders>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.powders-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+
+			.depmkt{
+				border:1px solid gray;
+				width:14%;
+				height:80%;
+			}
+			.depmkt>*{
+				
+				float:left;
+				clear:both;
+				font-size:12px;
+				font-weight: normal;
+			}
+			.depmkt-title{
+				margin-top:10%;
+				margin-bottom: 10%;
+				font-weight: bold;
+				font-size:13px;
+				
+			}
+			.menu-all-sub>*{
+				border:1px;
+			}

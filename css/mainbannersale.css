@@ -1,0 +1,95 @@
+@charset "UTF-8";
+	.main-banner{
+ 			border: 1px solid gray;
+ 			width:99.8%;
+ 			height:180px;
+ 			background: rgba(255, 255, 255, 0.1);
+ 			text-align: center;
+ 			background:url('../images/main1.jpg') center center no-repeat;
+ 			background-size: 100% 300%;
+ 		}
+
+ 	
+
+		.main-banner-title{
+		
+		margin-top: 5%;
+		font-size: 70px;
+
+		color:white;
+
+	}
+		
+ 		
+ 		.sale-container{
+			border: 1px solid gray;
+			
+			width:99.8%;
+			height: 550px;
+			text-align: center;
+ 		
+		
+		
+	
+
+ 		}
+ 			
+ 		
+		.sale-title{
+			font-size: 30px;
+			margin-top: 2%;
+
+
+		}
+
+		.sale-subtitle{
+			font-size: 12px;
+			margin-top: 0.5%;
+
+		}
+ 		
+ 		.sale-content-wrapper{
+			border:0px solid gray;
+			width:60vw;
+			height:370px;
+			display: inline-block;
+			margin-top: 1%;
+			position: relative;	
+		}
+
+		.sale-content>*{
+			border:1px solid gray;
+			width:45%;
+			height:160px;
+			float:left;
+			margin-left: 20px;
+			margin-top: 2%;
+		}
+
+		.sale-content1{
+			background:url('../images/s1.png') no-repeat;
+			background-size: cover;
+		}
+		.sale-content2{
+			background:url('../images/s2.png') no-repeat;
+			background-size: cover;
+		}
+		.sale-content3{
+			background:url('../images/s3.png') no-repeat;
+			background-size: cover;
+		}
+		.sale-content4{
+			background:url('../images/s4.png') no-repeat;
+			background-size: cover;
+		}
+		.sale-seemore{
+			border: 1px solid gray;
+			width:7vw;
+			height:30px;
+			position:absolute;
+			top:102%;
+			left:43%;
+		}
+
+		.sale-seemore:hover{background-color: #3c3d3c;}
+		.sale-seemore:hover .sale-seemore-title{color:white;}
